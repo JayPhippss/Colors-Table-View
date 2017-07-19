@@ -15,6 +15,7 @@
 		761712F81F181D5700F01C9B /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761712F71F181D5700F01C9B /* ColorsTests.swift */; };
 		761713031F181D5700F01C9B /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761713021F181D5700F01C9B /* ColorsUITests.swift */; };
 		761713111F181E0900F01C9B /* ColorsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 761713101F181E0900F01C9B /* ColorsViewController.swift */; };
+		767365E91F1ED5D400D0E18D /* colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 767365E81F1ED5D400D0E18D /* colors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		761713021F181D5700F01C9B /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		761713041F181D5700F01C9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		761713101F181E0900F01C9B /* ColorsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorsViewController.swift; sourceTree = "<group>"; };
+		767365E81F1ED5D400D0E18D /* colors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = colors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				761712EB1F181D5700F01C9B /* LaunchScreen.storyboard */,
 				761712EE1F181D5700F01C9B /* Info.plist */,
 				761712E61F181D5700F01C9B /* Colors.xcdatamodeld */,
+				767365E81F1ED5D400D0E18D /* colors.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				761712E81F181D5700F01C9B /* Colors.xcdatamodeld in Sources */,
+				767365E91F1ED5D400D0E18D /* colors.swift in Sources */,
 				761713111F181E0900F01C9B /* ColorsViewController.swift in Sources */,
 				761712E01F181D5700F01C9B /* AppDelegate.swift in Sources */,
 			);
@@ -520,6 +524,7 @@
 				761713091F181D5700F01C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7617130A1F181D5700F01C9B /* Build configuration list for PBXNativeTarget "ColorsTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				7617130C1F181D5700F01C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7617130D1F181D5700F01C9B /* Build configuration list for PBXNativeTarget "ColorsUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				7617130F1F181D5700F01C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
